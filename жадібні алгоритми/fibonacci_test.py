@@ -1,3 +1,5 @@
+# Верхній підхід функція фібоначчі
+
 def fibonacci(n, memo ):
     if n in memo:
         return memo[n]
@@ -12,6 +14,9 @@ def fibonacci(n, memo ):
 
 memo = {}
 n = 100
-res = fibonacci(n, memo)
+# res = fibonacci(n, memo)
 
+
+
+# Нижній підхід функція фібоначчі
 
